@@ -16,6 +16,7 @@ import {
   Download,
   ChevronDown,
   Quote,
+  GraduationCap,
 } from "lucide-react"
 
 export default function ProfilePage() {
@@ -93,10 +94,7 @@ export default function ProfilePage() {
                   Bienvenue sur mon portfolio
                 </h1>
                 <p className="text-xl text-slate-600 font-sans leading-relaxed">
-                  Je m’appelle Valentin Blanchet, j’ai 23 ans et je suis développeur FullStack en dernière année de
-                  Master à l’école Sup de Vinci Rennes. Découvrez mon parcours, mes projets et ma passion pour le
-                  développement web et applicatif.
-                </p>
+                  Je m’appelle Valentin Blanchet, développeur FullStack en dernière année de Master à l’école Sup de Vinci Rennes. Grâce à 3 ans d’alternance, j’ai pu allier études et expérience professionnelle pour approfondir mes compétences en développement web et applicatif. Découvrez mes projets et mon parcours.                </p>
               </div>
 
               <div className="flex items-center gap-4 text-slate-600">
@@ -105,8 +103,8 @@ export default function ProfilePage() {
                   <span className="text-sm">Rennes, France</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <Calendar className="w-4 h-4" />
-                  <span className="text-sm">23 ans</span>
+                  <GraduationCap className="w-4 h-4" />
+                  <span className="text-sm">3 ans d'alternance</span>
                 </div>
               </div>
 
